@@ -3,9 +3,9 @@ body {
   height: 100vh;
   font-family: 'Underdog', system-ui;
   background:
-    radial-gradient(circle at 20% 30%, rgba(0, 255, 255, 0.3), transparent),
-    radial-gradient(circle at 70% 50%, rgba(255, 0, 255, 0.3), transparent),
-    radial-gradient(circle at 90% 80%, rgba(0, 255, 136, 0.3), transparent),
+    radial-gradient(circle at 20% 30%, rgba(22, 2, 158, 0.597), transparent),
+    radial-gradient(circle at 70% 50%, rgba(255, 0, 040, 0.3), transparent),
+    radial-gradient(circle at 90% 80%, rgba(22, 2, 158, 0.597), transparent),
     #070116;
   /* cor de fundo sólida (background-color base) */
   background-blend-mode: screen;
@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 150px;
   min-height: 100%;
   margin: 25px 25px;
   border: 4px #ffffff;
@@ -66,9 +67,9 @@ body {
 
 .header .lista a:hover {
   transform: scale(1.05);
-  box-shadow:
+  text-shadow:
     0 0 20px #ffffff,
-    0 0 40px #070707,
+    0 0 40px #ffffff,
     0 0 80px #ffffff,
-    0 0 100px #070707;
+    0 0 100px #ffffff;
 }
